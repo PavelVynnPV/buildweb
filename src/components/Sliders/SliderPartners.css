@@ -1,0 +1,21 @@
+
+.mySwiperCustom {
+    display: none;
+    height: 100%;
+}
+
+@media (max-width: 570px) {
+    .mySwiperCustom {
+        display: block;
+        margin-top: 50px;
+    }
+    .partner_block {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 250px;
+    }
+    .partner_block img {
+        width: 100px;
+    }
+}

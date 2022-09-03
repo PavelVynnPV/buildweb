@@ -1,0 +1,71 @@
+section {
+  max-width: 1200px;
+  background-color: #fff;
+  margin: auto;
+}
+.block h2,
+.price_span {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+.block p {
+  font-size: 15px;
+}
+.more_photos {
+  color: #d1b319;
+}
+.house_prices_block {
+  max-width: 1015px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.btns {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.btns button {
+  padding: 10px 120px;
+  margin-left: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btns :nth-child(1) {
+  background-color: #d1b319;
+}
+.pagination {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  font-family: 'Roboto';
+  margin: auto;
+  align-items: center;
+  max-width: 500px;
+  padding: 30px 0;
+}
+.pagination ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+}
+.pagination ul li {
+    margin: 0 15px;
+}
+
+.pagination ul :nth-child(1) {
+    border-radius: 50%;
+    width: 28px;
+    border: 1px solid #000;
+    background-color: #d1b319;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

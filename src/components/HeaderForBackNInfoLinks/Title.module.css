@@ -1,0 +1,22 @@
+.content {
+  max-width: 1200px;
+  background-image: url(../utils/img/title_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  color: #d1b319;
+  padding: 10px 0 10px 200px;
+}
+.content a, .span_info_title {
+  text-decoration: none;
+  color: #d1b319;
+  font-size: 12px;
+}
+.title {
+  font-size: 30px ;
+  padding: 10px 0 ;
+  margin: 0;
+}
+.span_info_title, .arrow {
+  margin-left: 4px;
+}
