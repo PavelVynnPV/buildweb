@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/buildweb/static/css/main.c12472d2.css",
+    "main.js": "/buildweb/static/js/main.391b1908.js",
+    "static/media/sliderbg3.jpg": "/buildweb/static/media/sliderbg3.a5e636ee2eb05480d4af.jpg",
+    "static/media/aboutus1.png": "/buildweb/static/media/aboutus1.46043f8ee3c2d932f6cc.png",
+    "static/media/aboutus2.png": "/buildweb/static/media/aboutus2.b887a84f7e3393a7472e.png",
+    "static/media/housebg.png": "/buildweb/static/media/housebg.640b7f1b7c98a4b93ff7.png",
+    "static/media/sliderbg.jpg": "/buildweb/static/media/sliderbg.45962e0207709b51e104.jpg",
+    "static/media/building1.png": "/buildweb/static/media/building1.5a48eb981a52bbad3e20.png",
+    "static/media/house1.png": "/buildweb/static/media/house1.e1261dd8813fa9d63b55.png",
+    "static/media/house2.png": "/buildweb/static/media/house2.f5209673fda41ffd4ead.png",
+    "static/media/building9.png": "/buildweb/static/media/building9.ba400598d59f05797c85.png",
+    "static/media/building5.png": "/buildweb/static/media/building5.e067f641e1c4c224b57a.png",
+    "static/media/building7.png": "/buildweb/static/media/building7.1fb4d631eb5b0931b45c.png",
+    "static/media/building2.png": "/buildweb/static/media/building2.2c261e8729db2411fac7.png",
+    "static/media/building6.png": "/buildweb/static/media/building6.98002142779d3bcb78cf.png",
+    "static/media/building4.png": "/buildweb/static/media/building4.e18f1b99780e1666936d.png",
+    "static/media/building8.png": "/buildweb/static/media/building8.11a578b0c3d5769c590a.png",
+    "static/media/building3.png": "/buildweb/static/media/building3.6d5b8e01caaaf26251f8.png",
+    "static/media/sliderbg2.jpg": "/buildweb/static/media/sliderbg2.e92b9603e21190cc8592.jpg",
+    "static/media/service1.png": "/buildweb/static/media/service1.4df3f412c3d64c8e3b92.png",
+    "static/media/countryhouse1.png": "/buildweb/static/media/countryhouse1.9527468d51c12b11e268.png",
+    "static/media/countryhouse2.png": "/buildweb/static/media/countryhouse2.e6bd2785f26583d5857c.png",
+    "static/media/title_bg.png": "/buildweb/static/media/title_bg.d698b6294b43fd41d7cc.png",
+    "static/media/service2.png": "/buildweb/static/media/service2.36a08f993f61d4652c13.png",
+    "static/media/circle2.png": "/buildweb/static/media/circle2.4acad61df9d32a0c81df.png",
+    "static/media/logo_without_bg.png": "/buildweb/static/media/logo_without_bg.dc18ed8d47a03e17ac7d.png",
+    "static/media/circle.png": "/buildweb/static/media/circle.05929f777d7e8887dd67.png",
+    "static/media/epicenter.png": "/buildweb/static/media/epicenter.2b3da2fc22a478909b59.png",
+    "index.html": "/buildweb/index.html",
+    "main.c12472d2.css.map": "/buildweb/static/css/main.c12472d2.css.map",
+    "main.391b1908.js.map": "/buildweb/static/js/main.391b1908.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c12472d2.css",
+    "static/js/main.391b1908.js"
+  ]
+}
