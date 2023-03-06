@@ -29,12 +29,12 @@ function InnerCollapsible({ link, active, setActive }) {
           <ul className={styles.collapse_list}>
             <li
               className={
-                link === "http://localhost:3000/building/countryhouse"
+                link === "https://pavelvynnpv.github.io/buildweb/countryhouse"
                   ? styles.yellow_transperent
                   : null
               }
             >
-              <Link to="/building/countryhouse">Дачі</Link>
+              <Link to="/buildweb/building/countryhouse">Дачі</Link>
             </li>
             <li>Котеджі, особняки</li>
             <li>Будинки з бруса</li>
@@ -51,34 +51,39 @@ function Aside({ link }) {
 
   return (
     <div className={styles.collaps_container}>
-      <h1 className={styles.collaps_title}>
-        <span>БУДІВНИЦТВ</span>О
-      </h1>
-      <InnerCollapsible link={link} setActive={setActive} active={active} />
-      <ul className={styles.other_list}>
-        <li>
-          <span className={styles.collaps_arrow}>&#62;</span> Оздоблення
-        </li>
-        <li>
-          <span className={styles.collaps_arrow}>&#62;</span> Елементи ландшафту
-        </li>
-        <li>
-          <span className={styles.collaps_arrow}>&#62;</span> Індивідуальні
-          роботи
-        </li>
-        <li>
-          <span className={styles.collaps_arrow}>&#62;</span> Супровід об'єкту
-        </li>
-      </ul>
-      <h1 className={styles.collaps_title}>
-        <span>РЕМОНТ ТА С</span>ЕРВІС
-      </h1>
-      <ul className={styles.collaps_service}>
-        <li>Проектування</li>
-        <Link to="/visualization">3D-візуалізація</Link>
-        <li>Реставрація дерев'яних будинків</li>
-        <li>Шліфування і фарбування дерев'яних стін</li>
-      </ul>
+      <div>
+        <h1 className={styles.collaps_title}>
+          <span>БУДІВНИЦТВ</span>О
+        </h1>
+        <InnerCollapsible link={link} setActive={setActive} active={active} />
+        <ul className={styles.other_list}>
+          <li>
+            <span className={styles.collaps_arrow}>&#62;</span> Оздоблення
+          </li>
+          <li>
+            <span className={styles.collaps_arrow}>&#62;</span> Елементи
+            ландшафту
+          </li>
+          <li>
+            <span className={styles.collaps_arrow}>&#62;</span> Індивідуальні
+            роботи
+          </li>
+          <li>
+            <span className={styles.collaps_arrow}>&#62;</span> Супровід об'єкту
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h1 className={styles.collaps_title}>
+          <span>РЕМОНТ ТА С</span>ЕРВІС
+        </h1>
+        <ul className={styles.collaps_service}>
+          <li>Проектування</li>
+          <Link to="/buildweb/visualization">3D-візуалізація</Link>
+          <li>Реставрація дерев'яних будинків</li>
+          <li>Шліфування і фарбування дерев'яних стін</li>
+        </ul>
+      </div>
     </div>
   );
 }

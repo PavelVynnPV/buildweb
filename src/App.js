@@ -16,35 +16,35 @@ function App() {
       <BrowserRouter>
         <Navbar link={link} />
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/buildweb" element={<Home />} />
           <Route
             exact
-            path="/about"
+            path="/buildweb/about"
             element={<About setLink={setLink} link={link} />}
           />
           <Route
             exact
-            path="/projects"
+            path="/buildweb/projects"
             element={<Projects setLink={setLink} link={link} />}
           />
           <Route
             exact
-            path="/building"
+            path="/buildweb/building"
             element={<Building setLink={setLink} link={link} />}
           />
            <Route
             exact
-            path="/building/countryhouse"
+            path="/buildweb/building/countryhouse"
             element={<CountryHouse setLink={setLink} link={link} />}
           />
           <Route
             exact
-            path="/visualization"
+            path="/buildweb/visualization"
             element={<Visualization setLink={setLink} link={link} />}
           />
            <Route
             exact
-            path="/contacts"
+            path="/buildweb/contacts"
             element={<Contact setLink={setLink} link={link} />}
           />
         </Routes>

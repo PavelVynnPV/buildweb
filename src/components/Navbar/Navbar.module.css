@@ -230,6 +230,7 @@ nav {
   nav {
     position: relative;
   }
+  
 }
 
 @media (max-width: 620px) {
@@ -237,3 +238,12 @@ nav {
     display: none;
   }
 }
+@media (max-width: 340px) {
+  .nav_logo_menu {
+    padding: 0 !important;
+  }
+  .nav_logo_menu a img {
+    object-fit: contain;
+  }
+}
+

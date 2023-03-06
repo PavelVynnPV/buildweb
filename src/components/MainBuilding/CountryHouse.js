@@ -143,7 +143,7 @@ export default function CountryHouse({ setLink, link }) {
               </div>
             </div>
 
-            <Link to="/projects">Переглянути більше прикладів &#62;</Link>
+            <Link to="/buildweb/projects">Переглянути більше прикладів &#62;</Link>
           </div>
         </div>
         <Aside link={link}/>

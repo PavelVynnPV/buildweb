@@ -41,7 +41,7 @@ function Contact({ setLink, link }) {
           <textarea cols="30" rows="10" placeholder="Ваше Повідомлення *" />
           <button>НАДІСЛАТИ</button>
         </form>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.7898411687606!2d30.519870715731248!3d50.44501507947464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce567fa9b42f%3A0x7c42ce90252fbf12!2z0YPQuy4g0JrRgNC10YnQsNGC0LjQuiwgMjMsINCa0LjQtdCyLCDQo9C60YDQsNC40L3QsCwgMDEwMDE!5e0!3m2!1sru!2sde!4v1657354548541!5m2!1sru!2sde"></iframe>
+        <iframe title="place-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.7898411687606!2d30.519870715731248!3d50.44501507947464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce567fa9b42f%3A0x7c42ce90252fbf12!2z0YPQuy4g0JrRgNC10YnQsNGC0LjQuiwgMjMsINCa0LjQtdCyLCDQo9C60YDQsNC40L3QsCwgMDEwMDE!5e0!3m2!1sru!2sde!4v1657354548541!5m2!1sru!2sde"></iframe>
       </section>
     </>
   );

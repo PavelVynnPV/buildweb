@@ -58,19 +58,19 @@ function Navbar({ link }) {
             </li>
           </ul>
           <ul className={styles.contact_links_list}>
-            <a href="/">
+            <a href="https://t.me/pavel_vynn">
               <li>{telegram}</li>
             </a>
             <a href="/">
               <li>{pinterest}</li>
             </a>
-            <a href="/">
+            <a href="https://www.instagram.com/vinn_glasses/?hl=ru">
               <li>{instagram}</li>
             </a>
-            <a href="/">
+            <a href="https://twitter.com/Pavel_vynn">
               <li>{twitter}</li>
             </a>
-            <a href="/">
+            <a href="https://www.facebook.com/pavel.vinnichencko/">
               <li>{facebook}</li>
             </a>
           </ul>
@@ -78,7 +78,7 @@ function Navbar({ link }) {
       </div>
       <nav>
       <div className={styles.nav_logo_menu}>
-        <Link to="/">
+        <Link to="/buildweb">
          
           <img src={logo} alt="logo" />
         </Link>
@@ -93,10 +93,10 @@ function Navbar({ link }) {
           className={styles.main_links}
           id={burgerMenu === true ? styles.activeBurger : styles.unActiveNavList}
         >
-          <Link to="/about">
+          <Link to="/buildweb/about">
             <li
               className={
-                link === "http://localhost:3000/about" ? styles.yellow : null
+                link === "https://pavelvynnpv.github.io/buildweb/about" ? styles.yellow : null
               }
             >
               Про нас
@@ -118,7 +118,7 @@ function Navbar({ link }) {
             >
               <ul>
                 <li>
-                  <Link to="/building" id={styles.yellow}>
+                  <Link to="/buildweb/building" id={styles.yellow}>
                     Загальне будівництво
                   </Link>
                 </li>
@@ -129,7 +129,7 @@ function Navbar({ link }) {
               </ul>
               <ul>
                 <li>
-                  <Link to="/building/countryhouse" id={styles.yellow}>
+                  <Link to="/buildweb/building/countryhouse" id={styles.yellow}>
                     Дачі{" "}
                   </Link>
                 </li>
@@ -160,7 +160,7 @@ function Navbar({ link }) {
             >
               <li>Проектування</li>
               <li>
-                <Link to="/visualization" id={styles.yellow}>
+                <Link to="/buildweb/visualization" id={styles.yellow}>
                   3D-візуалізація
                 </Link>
               </li>
@@ -169,19 +169,19 @@ function Navbar({ link }) {
             </ul>
           </li>
 
-          <Link to="/projects">
+          <Link to="/buildweb/projects">
             <li
               className={
-                link === "http://localhost:3000/projects" ? styles.yellow : null
+                link === "https://pavelvynnpv.github.io/buildweb/projects" ? styles.yellow : null
               }
             >
               Проекти
             </li>
           </Link>
-          <Link to="/contacts">
+          <Link to="/buildweb/contacts">
             <li
               className={
-                link === "http://localhost:3000/contacts" ? styles.yellow : null
+                link === "https://pavelvynnpv.github.io/buildweb/contacts" ? styles.yellow : null
               }
             >
               Контакти

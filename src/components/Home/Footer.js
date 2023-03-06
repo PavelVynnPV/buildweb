@@ -10,21 +10,21 @@ function Footer() {
     <>
       <footer>
         <div className={styles.footer_logo_links}>
-          <Link to='/'><img src={logo} alt="" /></Link>
+          <Link to='/buildweb'><img src={logo} alt="" /></Link>
           <ul className={styles.footer_links_list}>
-            <a href="/">
+            <a href="https://www.facebook.com/pavel.vinnichencko/">
               <li>{facebook}</li>
             </a>
-            <a href="/">
+            <a href="https://t.me/pavel_vynn">
               <li>{telegram}</li>
             </a>
-            <a href="/">
+            <a href="https://twitter.com/Pavel_vynn">
               <li>{twitter}</li>
             </a>
             <a href="/">
               <li>{pinterest}</li>
             </a>
-            <a href="/">
+            <a href="https://www.instagram.com/vinn_glasses/?hl=ru">
               <li>{instagram}</li>
             </a>
           </ul>
@@ -36,19 +36,19 @@ function Footer() {
           </h2>
           <ul>
             <li>
-              <Link to="/building">Загальне будівництво</Link>
+              <Link to="/buildweb/building">Загальне будівництво</Link>
             </li>
             <li>
-              <Link to="/">Оздоблення</Link>
+              <Link to="/buildweb">Оздоблення</Link>
             </li>
             <li>
-              <Link to="/">Елементи ландшафту</Link>
+              <Link to="/buildweb">Елементи ландшафту</Link>
             </li>
             <li>
-              <Link to="/">Індивідуальні роботи</Link>
+              <Link to="/buildweb">Індивідуальні роботи</Link>
             </li>
             <li>
-              <Link to="/">Супровід об'єкту</Link>
+              <Link to="/buildweb">Супровід об'єкту</Link>
             </li>
           </ul>
         </div>
@@ -58,19 +58,19 @@ function Footer() {
           </h2>
           <ul>
             <li>
-              <Link to="/visualization">3D-візуалізація</Link>
+              <Link to="/buildweb/visualization">3D-візуалізація</Link>
             </li>
             <li>
-              <Link to="/">Реставрація дерев'яних будинків</Link>
+              <Link to="/buildweb">Реставрація дерев'яних будинків</Link>
             </li>
             <li>
-              <Link to="/">Шліфування і фарбування дерев'яних стін</Link>
+              <Link to="/buildweb">Шліфування і фарбування дерев'яних стін</Link>
             </li>
             <li>
-              <Link to="/">Індивідуальні роботи</Link>
+              <Link to="/buildweb">Індивідуальні роботи</Link>
             </li>
             <li>
-              <Link to="/">Супровід об'єкту</Link>
+              <Link to="/buildweb">Супровід об'єкту</Link>
             </li>
           </ul>
         </div>

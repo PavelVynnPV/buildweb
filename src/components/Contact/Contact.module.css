@@ -62,3 +62,33 @@
     height: 500px;
     border: none;
   }
+
+  @media (max-width: 750px) {
+    .contact_list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center !important;
+      gap:10px;
+    }
+  }
+  @media (max-width: 720px) {
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      padding: 10px 10px 70px;
+    }
+    form div {
+      width: 100%;
+    }
+    input, textarea, form div {
+      width: 100% !important;
+    }
+    input {
+      margin: 10px 0 !important;
+    }
+    iframe {
+      padding: 10px;
+    }
+  }
+

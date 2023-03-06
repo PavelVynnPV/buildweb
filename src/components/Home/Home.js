@@ -64,13 +64,13 @@ function Home() {
           <span>ПРИКЛ</span>АДИ РОБІТ
         </h1>
         <div className={styles.img_link_blocks}>
-          <Link to="/projects">
+          <Link to="buildweb/projects">
             <div className={styles.img_link_block}>
               <img src={house1} alt="" />
               <span>БУДІВНИЦТВО</span>
             </div>
           </Link>
-          <Link to="/projects">
+          <Link to="buildweb/projects">
             <div className={styles.img_link_block}>
               <img src={house2} alt="" />
               <span>РЕМОНТ ТА СЕРВІС</span>

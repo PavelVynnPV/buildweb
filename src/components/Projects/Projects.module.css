@@ -69,3 +69,46 @@ section {
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 990px) {
+  .btns {
+    gap:10px;
+  }
+  .btns button {
+    margin-left: 0;
+  }
+  .house_prices_block {
+    justify-content: center;
+  }
+}
+@media (max-width: 800px) {
+  .btns button {
+    font-size: 18px;
+  }
+  .btns {
+    flex-wrap: wrap;
+  }
+  .block img{
+    width: 100%;
+  }
+  .pagination {
+    justify-content: center;
+  }
+}
+@media (max-width: 430px) {
+  .pagination {
+    font-size: 14px !important;
+  }
+  .btns {
+    max-width: 360px;
+    margin: auto;
+  }
+  .btns button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .pagination ul {
+    padding: 0;
+  }
+}

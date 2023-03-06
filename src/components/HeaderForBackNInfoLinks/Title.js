@@ -7,17 +7,17 @@ function Title({ link }) {
     <>
       <div className={styles.content}>
         <h1 className={styles.title}>
-          {link === "http://localhost:3000/about"
+          {link === "https://pavelvynnpv.github.io/buildweb/about"
             ? "ПРО НАС"
-            : null || link === "http://localhost:3000/projects"
+            : null || link === "https://pavelvynnpv.github.io/buildweb/projects"
             ? "ПРОЕКТИ"
-            : null || link === "http://localhost:3000/building"
+            : null || link === "https://pavelvynnpv.github.io/buildweb/building"
             ? `ЗАГАЛЬНЕ БУДІВНИЦТВО`
-            : null || link === "http://localhost:3000/building/countryhouse"
+            : null || link === "https://pavelvynnpv.github.io/buildweb/building/countryhouse"
             ? "ДАЧІ"
-            : null || link === "http://localhost:3000/visualization"
+            : null || link === "https://pavelvynnpv.github.io/buildweb/visualization"
             ? "3D-ВІЗУАЛІЗАЦІЯ"
-            : null || link === "http://localhost:3000/contacts"
+            : null || link === "https://pavelvynnpv.github.io/buildweb/contacts"
             ? "КОНТАКТИ"
             : null}
         </h1>
@@ -25,17 +25,17 @@ function Title({ link }) {
           Головна <span className={styles.arrow}>&#62;</span>
         </Link>
         <span className={styles.span_info_title}>
-          {link === "http://localhost:3000/about"
+          {link === "https://pavelvynnpv.github.io/buildweb/about"
             ? "Про нас"
-            : null || link === "http://localhost:3000/projects"
+            : null || link === "https://pavelvynnpv.github.io/buildweb/projects"
             ? "Проекти"
-            : null || link === "http://localhost:3000/building"
+            : null || link === "https://pavelvynnpv.github.io/buildweb/building"
             ? `Будівництво > Загальне будівництво`
-            : null || link === "http://localhost:3000/building/countryhouse"
+            : null || link === "https://pavelvynnpv.github.io/buildweb/building/countryhouse"
             ? "Будівництво > Загальне будівництво > Дачі"
-            : null || link === "http://localhost:3000/visualization"
+            : null || link === "https://pavelvynnpv.github.io/buildweb/visualization"
             ? "Будівництво > Ремонт та сервіс > 3D-візуалізація"
-            : null || link === "http://localhost:3000/contacts"
+            : null || link === "https://pavelvynnpv.github.io/buildweb/contacts"
             ? "Контакти"
             : null}
         </span>

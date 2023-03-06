@@ -81,3 +81,15 @@
 .yellow_transperent {
   background-color: #d1b2197c;
 }
+
+
+@media (max-width: 1020px) {
+  .collaps_container {
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+  }
+}

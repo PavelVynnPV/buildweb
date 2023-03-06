@@ -106,3 +106,58 @@
     margin: 0;
     font-size: 20px;
 }
+
+@media (max-width: 1200px) {
+    .visualization, .country_house {
+        justify-content: space-between;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+    }
+    .container, .text_block {
+        margin: auto;
+    }
+}
+
+@media (max-width: 1020px) {
+    .visualization, .country_house {
+        display: flex;
+        flex-flow: column-reverse;
+        padding: 0;
+    }
+}
+@media (max-width: 710px) {
+    .img_block {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        max-width: 500px;
+        margin: auto;
+    }
+    .container {
+        padding: 10px;
+    }
+    .img_block img {
+        width: 100%;
+    }
+    .img_text {
+        margin-left: 0;
+    }
+
+}
+@media (max-width: 500px) {
+    .container {
+        font-size: 14px;
+    }
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 410px) {
+    .container button, .text_block button{
+        width: 300px;
+        justify-content: center;
+    }
+}
